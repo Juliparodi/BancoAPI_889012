@@ -1,0 +1,13 @@
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\BancoAPINegocio.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\BancoAPINegocio.pdb
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\BancoAPIDatos.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\BancoAPIEntidades.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\BancoAPIDatos.pdb
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\BancoAPIEntidades.pdb
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\obj\Debug\BancoAPINegocio.csprojAssemblyReference.cache
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\obj\Debug\BancoAPINegocio.csproj.CoreCompileInputs.cache
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\obj\Debug\BancoAPINegocio.csproj.CopyComplete
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\obj\Debug\BancoAPINegocio.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPINegocio\obj\Debug\BancoAPINegocio.pdb

@@ -1,0 +1,5 @@
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIEntidades\bin\Debug\BancoAPIEntidades.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIEntidades\bin\Debug\BancoAPIEntidades.pdb
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIEntidades\obj\Debug\BancoAPIEntidades.csproj.CoreCompileInputs.cache
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIEntidades\obj\Debug\BancoAPIEntidades.dll
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIEntidades\obj\Debug\BancoAPIEntidades.pdb
