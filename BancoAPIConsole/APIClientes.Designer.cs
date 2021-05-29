@@ -45,6 +45,9 @@
             this.eliminar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.btnTraerXTelefono = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lstClientes
@@ -54,6 +57,7 @@
             this.lstClientes.Name = "lstClientes";
             this.lstClientes.Size = new System.Drawing.Size(218, 264);
             this.lstClientes.TabIndex = 0;
+            this.lstClientes.SelectedIndexChanged += new System.EventHandler(this.lstClientes_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -179,7 +183,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(513, 56);
+            this.label6.Location = new System.Drawing.Point(513, 40);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(94, 13);
             this.label6.TabIndex = 15;
@@ -187,16 +191,46 @@
             // 
             // dateTimePicker
             // 
-            this.dateTimePicker.Location = new System.Drawing.Point(516, 81);
+            this.dateTimePicker.Location = new System.Drawing.Point(508, 56);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker.TabIndex = 20;
+            // 
+            // btnTraerXTelefono
+            // 
+            this.btnTraerXTelefono.Location = new System.Drawing.Point(641, 348);
+            this.btnTraerXTelefono.Name = "btnTraerXTelefono";
+            this.btnTraerXTelefono.Size = new System.Drawing.Size(93, 31);
+            this.btnTraerXTelefono.TabIndex = 21;
+            this.btnTraerXTelefono.Text = "Traer x telefono";
+            this.btnTraerXTelefono.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnTraerXTelefono.UseVisualStyleBackColor = true;
+            this.btnTraerXTelefono.Click += new System.EventHandler(this.btnTraerXTelefono_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(505, 108);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(45, 13);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "telefono";
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(567, 105);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefono.TabIndex = 23;
             // 
             // APIClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.btnTraerXTelefono);
             this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.eliminar);
@@ -241,5 +275,8 @@
         private System.Windows.Forms.Button eliminar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
+        private System.Windows.Forms.Button btnTraerXTelefono;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtTelefono;
     }
 }

@@ -16,6 +16,7 @@ namespace BancoAPIEntidades.entities
         private string _direccion;
         private string _DNI;
         private DateTime _fechaNac;
+        private string telefono;
 
 
 
@@ -34,6 +35,9 @@ namespace BancoAPIEntidades.entities
 
         [DataMember(Name = "fechaNacimiento")]
         public DateTime FechaNac { get => _fechaNac; set => _fechaNac = value; }
+
+        [DataMember(Name = "telefono")]
+        public string Telefono { get => telefono; set => telefono = value; }
 
         public Cliente()
         {

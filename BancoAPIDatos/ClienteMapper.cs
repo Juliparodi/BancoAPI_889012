@@ -24,6 +24,11 @@ namespace BancoAPIDatos
             return lst;
         }
 
+        private Cliente MapObjectCliente(string json)
+        {
+            Cliente cli = JsonConvert.DeserializeObject<Cliente>(json);
+            return cli;
+        }
         public TransactionResult Insertar(Cliente cliente)
         {
             try
@@ -51,10 +56,25 @@ namespace BancoAPIDatos
             n.Add("apellido", cliente.Ape);
             n.Add("direccion", cliente.Direccion);
             n.Add("DNI", cliente.DNI);
-            n.Add("fechaNacimiento",cliente.FechaNac.ToString());
+            n.Add("fechaNacimiento",cliente.FechaNac.ToString("yyyy-MM-dd"));
+            n.Add("telefono", cliente.Telefono.ToString());
             n.Add("usuario", "1");
             return n;
         }
 
+        public Cliente TraerPorTelefono(string telefono)
+        {
+            try
+            {
+                string url = "cliente/" + telefono + "/telefono";
+                string json2 = WebHelper.Get(url);
+                Cliente resultado = MapObjectCliente(json2);
+                return resultado;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ocurrio un error al traer clientes x telefono");
+            }
+        }
     }
 }

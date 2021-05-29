@@ -50,7 +50,7 @@ namespace BancoAPIDatos
             catch (Exception ex)
 #pragma warning restore CS0168 // The variable 'ex' is declared but never used
             {
-                return "{ \"isOk\":false,\"id\":-1,\"error\":\"Error en el llamado al servicio\"}";
+                return "{\"isOk\":false,\"id\":-1,\"error\":\"Error en el llamado al servicio:\"}";
             }
         }
 

@@ -24,7 +24,7 @@ namespace BancoAPINegocio
             return clienteMapper.TraerTodos();
         }
 
-        public TransactionResult Agregar(string nombre, string apellido, DateTime fechaNac, string dni, string direccion)
+        public TransactionResult Agregar(string nombre, string apellido, DateTime fechaNac, string dni, string direccion, string telefono)
         {
             try
             {
@@ -34,6 +34,7 @@ namespace BancoAPINegocio
                 cliente.DNI = dni;
                 cliente.Direccion = direccion;
                 cliente.FechaNac = fechaNac;
+                cliente.Telefono = telefono;
 
 
                 return clienteMapper.Insertar(cliente);
@@ -44,6 +45,11 @@ namespace BancoAPINegocio
             {
                 throw new Exception("ha ocurrido un error al insertar elementos");
             }
+        }
+
+        public Cliente TraerPorTelefono(string telefono)
+        {
+            return clienteMapper.TraerPorTelefono(telefono);
         }
     }
 }
