@@ -47,6 +47,8 @@
     <Compile Include="entities\Cuenta.cs" />
     <Compile Include="entities\Persona.cs" />
     <Compile Include="entities\TransactionResult.cs" />
+    <Compile Include="exceptions\CuentaNotFoundException.cs" />
+    <Compile Include="exceptions\CuentasSinClientesActivosException.cs" />
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -56,9 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="exceptions\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>

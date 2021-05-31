@@ -18,3 +18,4 @@ C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPICo
 C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIConsole\obj\Debug\BancoAPIConsole.csproj.CopyComplete
 C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIConsole\obj\Debug\BancoAPIConsole.exe
 C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIConsole\obj\Debug\BancoAPIConsole.pdb
+C:\Users\julia\CAI\repositorios\BancoAPI_Julian\BancoAPI_JulianParodi\BancoAPIConsole\obj\Debug\BancoAPIConsole.ApiCuentas.resources

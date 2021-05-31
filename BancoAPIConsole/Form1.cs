@@ -19,10 +19,17 @@ namespace BancoAPIConsole
         }
 
 
-        private void btnAPICuentas_Click(object sender, EventArgs e)
+        private void btnAPIClientes_Click(object sender, EventArgs e)
         {
             APIClientes FormApiClientes = new APIClientes(this);
             FormApiClientes.Show();
+            this.Hide();
+        }
+
+        private void btnAPICuentas_Click(object sender, EventArgs e)
+        {
+            ApiCuentas formApiCuentas = new ApiCuentas(this);
+            formApiCuentas.Show();
             this.Hide();
         }
     }

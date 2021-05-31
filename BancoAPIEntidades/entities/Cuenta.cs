@@ -10,11 +10,9 @@ namespace BancoAPIEntidades.entities
     [DataContract]
     public class Cuenta
     {
-        public class Root
-        {
             int _nroCuenta;
             string _descripcion;
-            int _saldo;
+            float _saldo;
             DateTime _fechaApertura;
             DateTime _fechaModificacion;
             bool _activo;
@@ -26,18 +24,18 @@ namespace BancoAPIEntidades.entities
             [DataMember(Name = "descripcion")]
             public string Descripcion { get => _descripcion; set => _descripcion = value; }
             [DataMember(Name = "saldo")]
-            public int Saldo { get => _saldo; set => _saldo = value; }
+            public float Saldo { get => _saldo; set => _saldo = value; }
             [DataMember(Name = "fechaApertura")]
             public DateTime FechaApertura { get => _fechaApertura; set => _fechaApertura = value; }
             [DataMember(Name = "fechaModificacion")]
             public DateTime FechaModificacion { get => _fechaModificacion; set => _fechaModificacion = value; }
-            [DataMember(Name = "actico")]
+            [DataMember(Name = "activo")]
             public bool Activo { get => _activo; set => _activo = value; }
             [DataMember(Name = "idCliente")]
             public int IdCliente { get => _idCliente; set => _idCliente = value; }
             [DataMember(Name = "id")]
             public int Id { get => _id; set => _id = value; }
 
-        }
+        
     }
 }

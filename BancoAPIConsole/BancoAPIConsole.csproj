@@ -52,6 +52,12 @@
     <Compile Include="APIClientes.Designer.cs">
       <DependentUpon>APIClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ApiCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApiCuentas.Designer.cs">
+      <DependentUpon>ApiCuentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="APIClientes.resx">
       <DependentUpon>APIClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApiCuentas.resx">
+      <DependentUpon>ApiCuentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -13,9 +13,17 @@ namespace BancoAPIDatos
     {
         public List<Cliente> TraerTodos()
         {
-            string json2 = WebHelper.Get("cliente"); // trae un texto en formato json de una web
-            List<Cliente> resultado = MapList(json2);
-            return resultado;
+            try
+            {
+                string json2 = WebHelper.Get("cliente"); // trae un texto en formato json de una web
+                List<Cliente> resultado = MapList(json2);
+                return resultado;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+                
+            }
         }
 
         private List<Cliente> MapList(string json)
