@@ -84,8 +84,8 @@ namespace BancoAPIConsole
                 txtIdCliente.Enabled = false;
                 txtActivo.Text = "true";
                 txtActivo.Enabled = false;
-                txtNroCuenta.Enabled = true;
-                txtSaldo.Enabled = true;
+                txtNroCuenta.Enabled = false;
+                txtSaldo.Enabled = false;
             } else
             {
                 llenarCamposNoVacios(cuenta);
@@ -161,6 +161,13 @@ namespace BancoAPIConsole
             }
 
      
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Owner.Show();
+            this.Close();
+
         }
     }
 }

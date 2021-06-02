@@ -48,6 +48,7 @@
             this.btnTraerXTelefono = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstClientes
@@ -223,11 +224,22 @@
             this.txtTelefono.Size = new System.Drawing.Size(100, 20);
             this.txtTelefono.TabIndex = 23;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(665, 299);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 24;
+            this.btnVolver.Text = "volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // APIClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnTraerXTelefono);
@@ -278,5 +290,6 @@
         private System.Windows.Forms.Button btnTraerXTelefono;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

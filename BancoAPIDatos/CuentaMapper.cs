@@ -30,14 +30,20 @@ namespace BancoAPIDatos
         private NameValueCollection ReverseMap(Cuenta cuenta)
         {
             NameValueCollection n = new NameValueCollection();
+
+            n.Add("idCliente", cuenta.IdCliente.ToString());
+            n.Add("Descripcion", cuenta.Descripcion);
+
+            /*
             n.Add("nroCuenta", cuenta.NroCuenta.ToString());
             n.Add("descripcion", cuenta.Descripcion);
-            n.Add("saldo", cuenta.Saldo.ToString());
+            n.Add("saldo", cuenta.Saldo.ToString("0.00"));
             n.Add("fechaApertura", cuenta.FechaApertura.ToString("yyyy-MM-dd"));
             n.Add("fechaModificacion", cuenta.FechaModificacion.ToString("yyyy-MM-dd"));
             n.Add("activo", cuenta.Activo.ToString());
             n.Add("idCliente", cuenta.IdCliente.ToString());
             n.Add("id", cuenta.Id.ToString());
+            */
             return n;
         }
 

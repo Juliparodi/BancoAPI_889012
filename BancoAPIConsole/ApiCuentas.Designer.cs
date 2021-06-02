@@ -43,6 +43,7 @@
             this.txtIdCliente = new System.Windows.Forms.TextBox();
             this.btnAgregarCuenta = new System.Windows.Forms.Button();
             this.btnClientesCtasActivas = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbClientesCtasActivas
@@ -174,11 +175,22 @@
             this.btnClientesCtasActivas.UseVisualStyleBackColor = true;
             this.btnClientesCtasActivas.Click += new System.EventHandler(this.btnClientesCtasActivas_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(449, 415);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 15;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // ApiCuentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnClientesCtasActivas);
             this.Controls.Add(this.btnAgregarCuenta);
             this.Controls.Add(this.txtIdCliente);
@@ -219,5 +231,6 @@
         private System.Windows.Forms.TextBox txtActivo;
         private System.Windows.Forms.Button btnAgregarCuenta;
         private System.Windows.Forms.Button btnClientesCtasActivas;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
